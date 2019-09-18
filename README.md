@@ -23,6 +23,7 @@ A list of helpful resources I used to create everything
     - [Step by Step Javascript and Postgres Tutorial using node-postgres](https://www.youtube.com/watch?v=ufdHsFClAk0)
     - [Building a Web API with Express and PostgreSQL to Consume from Browser](https://www.youtube.com/watch?v=0JNq46eFuOM)
     - [Node-Postgres library](https://node-postgres.com)
+    
 
 4. Authentication
     - [Build A Node.js API Authentication With JWT Tutorial](https://www.youtube.com/watch?v=2jqok-WgelI)
@@ -36,6 +37,9 @@ A list of helpful resources I used to create everything
 6. React (The [documentation](https://reactjs.org/docs/getting-started.html) is all important, but the following are some information I had to keep looking at frequently.)
     - [Higher-Order-Components](https://reactjs.org/docs/higher-order-components.html)
     - [React Life Cycle Methods](https://programmingwithmosh.com/javascript/react-lifecycle-methods/)
+    
+7. Heroku and PostgreSQL
+    - [Heroku PostgreSQL](https://www.youtube.com/watch?v=NSYSXU2j6nE)
 
 ### Comments
 Frankly, this project was made to learn more about redux, but I feel that this couldve been done very easily with just the Context API.
