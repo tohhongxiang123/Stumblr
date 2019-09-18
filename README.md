@@ -1,5 +1,9 @@
 # Tumblr Clone
 Made with PostgreSQL, Express, React (with redux) and Node
+Demo available [here](https://stumblr-social-media-website.herokuapp.com/)
+- Guest account details: 
+    - Username: asdfasdf
+    - Password: asdfasdf
 
 ## Features
 - Login and user authentication
