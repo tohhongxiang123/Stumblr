@@ -1,0 +1,66 @@
+.user-post-list-container {
+    display: grid;
+    grid-template-columns: 1fr auto auto 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    justify-content: center;
+    grid-gap: 30px;
+    grid-template-areas: 
+    "header header header header"
+    ". posts sidebar ."
+    ". posts . .";
+}
+
+.user-header-container {
+    grid-area: header;
+    justify-self: stretch;
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    margin-bottom: 150px;
+    border-radius: 0;
+}
+
+.post-list-container {
+    grid-area: posts;
+}
+
+.user-header-container img {
+    background:#E0E0E0;
+    display: inline-block;
+    border-radius: 10px;
+    border: 2px solid #121212;  
+    padding: 20px;
+}
+
+.user-header-content {
+    position: relative;
+    bottom: -90px;
+}
+
+.user-following-container {
+    grid-area: sidebar;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 5px;
+}
+
+.user-following-container .list-group-item {
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 750px) {
+    .user-post-list-container {
+        grid-template-columns: 20px 1fr 20px;
+        grid-template-areas: 
+        "header header header"
+        ". sidebar ."
+        ". posts .";
+    }
+
+    .user-following-container {
+        justify-self: center;
+    }
+  }
